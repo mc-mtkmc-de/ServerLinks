@@ -1,0 +1,14 @@
+name: ServerLinks
+version: 0.1
+author: Tempoo50
+main: de.serverlinks.main.ServerLinks
+
+commands:
+   discord:
+      description: Zeigt den DiscordLink!
+   ts:
+      description: Zeigt die Ts Adresse!
+   web:
+      description: Zeigt die Internetadresse!
+   vote:
+      description: Zeigt die Vote Adresse!
