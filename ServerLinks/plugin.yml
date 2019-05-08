@@ -12,3 +12,5 @@ commands:
       description: Zeigt die Internetadresse!
    vote:
       description: Zeigt die Vote Adresse!
+   forum:
+      description: Zeigt die Forumadresse!
