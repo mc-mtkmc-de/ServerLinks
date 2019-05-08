@@ -7,6 +7,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 import de.serverlinks.commands.DiscordCommand;
 import de.serverlinks.commands.ForumCommand;
 import de.serverlinks.commands.TSCommand;
+import de.serverlinks.commands.TwitterCommand;
 import de.serverlinks.commands.VoteCommand;
 import de.serverlinks.commands.WebCommand;
 
@@ -24,6 +25,7 @@ public class ServerLinks extends JavaPlugin{
 		getCommand("web").setExecutor(new WebCommand());
 		getCommand("vote").setExecutor(new VoteCommand());
 		getCommand("forum").setExecutor(new ForumCommand());
+		getCommand("twitter").setExecutor(new TwitterCommand());
 
 	}
 
