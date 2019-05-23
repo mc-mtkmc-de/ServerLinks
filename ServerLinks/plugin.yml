@@ -1,5 +1,5 @@
 name: ServerLinks
-version: 0.1
+version: 0.2
 author: Tempoo50
 main: de.serverlinks.main.ServerLinks
 
@@ -15,4 +15,6 @@ commands:
    forum:
       description: Zeigt die Forumadresse!
    twitter:
-      description: Zeigt die Twitteradresse
+      description: Zeigt die Twitteradresse!
+   shop:
+      description: Zeigt die Shopadresse!
