@@ -14,7 +14,7 @@ public class DiscordCommand implements CommandExecutor {
 		
 		if(sender instanceof Player) {
 			Player player = (Player) sender;
-			if(player.hasPermission("serverlinks.discord")) {
+			if(player.hasPermission("sys.discord")) {
 				if(args.length == 0) {
 					
 					player.sendMessage("§cDiscord: §b§ldiscord.gg/6qNhQSH");

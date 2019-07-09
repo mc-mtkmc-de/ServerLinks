@@ -5,20 +5,20 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-public class TSCommand implements CommandExecutor {
+public class InstaCommand implements CommandExecutor {
 
 	@Override
 	public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
 		
 		if(sender instanceof Player) {
 			Player player = (Player) sender;
-			if(player.hasPermission("sys.ts")) {
+			if(player.hasPermission("sys.insta")) {
 				if(args.length == 0) {
 					
-					player.sendMessage("§cTeamSpeak: §b§lendergames.4np.de");
+					player.sendMessage("§cInsta: §b§lhttps://www.instagram.com/p/Byzd79zIrrm/?igshid=1snn4wqeavdgf");
 
 				} else
-					player.sendMessage("§cBitte benutze §6/ts§c!");
+					player.sendMessage("§cBitte benutze §6/insta§c!");
 				
 			} else
 				player.sendMessage("§cDazu hast du keine Rechte!");
@@ -31,4 +31,5 @@ public class TSCommand implements CommandExecutor {
 
 	
 	
+
 }

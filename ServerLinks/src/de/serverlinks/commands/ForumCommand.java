@@ -13,7 +13,7 @@ public class ForumCommand implements CommandExecutor {
 		
 		if(sender instanceof Player) {
 			Player player = (Player) sender;
-			if(player.hasPermission("serverlinks.forum")) {
+			if(player.hasPermission("sys.forum")) {
 				if(args.length == 0) {
 					
 					player.sendMessage("§cForum: §b§lhttp://www.endergamesmc.de/forum/");

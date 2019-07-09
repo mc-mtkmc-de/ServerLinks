@@ -12,7 +12,7 @@ public class TwitterCommand implements CommandExecutor {
 		
 		if(sender instanceof Player) {
 			Player player = (Player) sender;
-			if(player.hasPermission("serverlinks.twitter")) {
+			if(player.hasPermission("sys.twitter")) {
 				if(args.length == 0) {
 					
 					player.sendMessage("§cTwitter: §b§lhttps://twitter.com/EnderGamesMc1");

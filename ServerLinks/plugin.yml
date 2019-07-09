@@ -10,11 +10,13 @@ commands:
       description: Zeigt die Ts Adresse!
    web:
       description: Zeigt die Internetadresse!
-   vote:
-      description: Zeigt die Vote Adresse!
+   yt:
+      description: Zeigt die YT Kanale unserer Spieler!
    forum:
       description: Zeigt die Forumadresse!
    twitter:
       description: Zeigt die Twitteradresse!
    shop:
       description: Zeigt die Shopadresse!
+   insta:
+      description: Zeigt die Instagramadresse!

@@ -12,7 +12,7 @@ public class WebCommand implements CommandExecutor {
 		
 		if(sender instanceof Player) {
 			Player player = (Player) sender;
-			if(player.hasPermission("serverlinks.web")) {
+			if(player.hasPermission("sys.web")) {
 				if(args.length == 0) {
 					
 					player.sendMessage("§cWeb: §b§lhttp://www.endergamesmc.de/");

@@ -12,7 +12,7 @@ public class ShopCommand implements CommandExecutor {
 		
 		if(sender instanceof Player) {
 			Player player = (Player) sender;
-			if(player.hasPermission("serverlinks.shop")) {
+			if(player.hasPermission("sys.shop")) {
 				if(args.length == 0) {
 					
 					player.sendMessage("§cShop: §b§lhttp://www.endergamesmc.de/shop");
